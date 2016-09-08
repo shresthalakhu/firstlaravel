@@ -47,6 +47,8 @@ class UserController extends Controller
         return view('pages.profile');
     }
 
+    
+
     function logout(){
 
         Auth::logout();
